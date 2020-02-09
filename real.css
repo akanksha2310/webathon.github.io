@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+*{
+	box-sizing:border:box;
+}
+
+html,body,h2,h3,p,div{
+	margin:0;
+	padding: 0;
+}
+body{
+	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url('./images/background2.jpeg');
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height:100vh;
+	margin:-20px 0 50px;
+	font-family: 'Montserrat',sans-serif;
+	 background-position: 50% 50%;
+	background-repeat: no-repeat;
+  background-size: cover;
+}
+a{
+	border:5px solid #fff ;
+	border-radius: 30px;
+	color:#fff;
+	font-size: 50px;
+	text-decoration:none;
+	padding:10px 10px 10px 10px;
+	margin-bottom:10px;
+}
+p{
+	margin-left:50px;
+	font-size: 18px;
+	color:#fff;
+	font-weight: 100;
+	line-height: 20px;
+	letter-spacing: 0.5px;
+	margin:20px 0 30px;
+}
+
+h2,h3{
+	margin-top:20px;
+	margin-left:100px;
+}
+h3{
+	color:white;
+	font-family:'Flamenco',cursive;
+	padding:10px 10px;
+}
+h3:hover{
+	background-color:dodgerblue;
+}
+
+h2{
+	color:yellow;
+  font-weight: 100%;
+}
+ul {
+  list-style-type: square;
+}
+.lesson-wrapper h3
+{
+	display: inline-block;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-radius:18px;
+	border:1px solid #fff ;
+	padding: 10px;
+}
